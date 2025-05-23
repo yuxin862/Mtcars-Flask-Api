@@ -1,8 +1,5 @@
 # Build this image on a Python 3.12 image
-FROM python:3.12
-
-#lightweight version of python
-#FROM python:3.12-slim 
+FROM python:3.12-slim 
 
 #EXPOSE 5001
 
