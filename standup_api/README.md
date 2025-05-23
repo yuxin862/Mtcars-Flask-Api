@@ -13,4 +13,5 @@ curl -H "Content-Type: application/json" -X POST \
   https://flask-app-hw-860094761515.us-central1.run.app/predict_mpg
 
 
+
 You can change some of the values to see the prediction change. Both of the curl commands can be found in the file curl_test.sh. As usual, check to see if you have any docker containers running using docker container ls and stop them through docker componse down -v
